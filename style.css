@@ -1,0 +1,103 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Inter", sans-serif;
+    text-decoration: none;
+ }
+.row__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 32px 0 0;
+}
+.nav__logo {
+display: flex;
+align-items: center;
+width: 100%;
+}
+
+.nav__logo-image {
+    width: 40px;
+    height: 40px;
+
+}
+
+.nav__links{
+    margin: 0 14px;
+    color: #243624;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0 0.35px;
+    text-decoration: none;
+}
+
+.nav__logo-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+}
+
+.nav__links-PRIMARY {
+    color: white;
+    background-color: #6415ff;
+    margin: 12px 0px 0px;
+    padding: 10px 32px;
+    box-sizing: border-box;
+
+}
+
+.CONTAINER {
+    padding: 96PX 12px;
+   display: flex;
+
+
+}
+
+.ROW{
+    width: 100%;
+    max-width: 1200PX;
+    margin: 0 AUTO;
+    display: flex;
+    align-items: CENTER;
+    justify-content: space-between;
+}
+
+
+.HEADER__DESCRIPTION {
+width: 40%;
+
+}
+
+H1 {
+font-size: 48PX;
+color: #1a202c ;
+line-height: 1.25;
+}
+.PURPLE{
+    color: #6415ff;
+}
+
+.header__description-para{
+    margin: 32px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
