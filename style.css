@@ -78,6 +78,7 @@ width: 100%;
 
 .HEADER__DESCRIPTION {
 width: 40%;
+display: flex;
 
 }
 
@@ -100,4 +101,23 @@ line-height: 1.25;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+}
+
+.header__img{
+    width: 100%;
+    max-width: 768PX;
+    height: 735px , 528px;
+
+}
+
+.header__image-wrapper{
+    width: calc(100%-41.6667%);
+
+
+}
+
+figure{
+    display: block;
+    width: 734px ;
+
 }
